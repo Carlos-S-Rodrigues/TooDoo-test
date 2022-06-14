@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding:100px;
+}
+
+li {
+  list-style: none;
+  font-family: Arial;
+  margin-bottom: 10px;
+}
+li a{
+  text-decoration: none;
+}
+
+li:hover{
+  text-decoration: underline;
+}
+

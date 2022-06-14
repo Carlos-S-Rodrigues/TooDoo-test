@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 67.5%;
+}
+
+
+#main{
+  display: grid;
+  grid-template-areas: 'A A''B B''C D''E E' ;
+  gap:0.5rem;
+  padding: 5rem;
+  font-size: 1.6rem;
+  text-align: center;
+  font-family:Arial;
+  font-weight: 900;
+}
+
+#mainContent1{
+  grid-area: A;
+  background: blue;
+  padding: 2rem;
+}
+
+#mainContent2{
+  grid-area: B;
+  background: red;
+  padding: 2rem;
+}
+
+#mainContent3{
+  grid-area: C;
+  background: yellow;
+  padding: 2rem;
+}
+
+#mainContent4{
+  grid-area: D;
+  background: green;
+  padding: 2rem;
+}
+
+#mainContent5{
+  grid-area: E;
+  background: orange;
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 780px){
+  #main{
+    grid-template-areas: 'A A A''B B E''C D E';
+  }
+  
+
+}
